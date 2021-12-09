@@ -12,6 +12,7 @@ h1{
 }
 #color-palette{
     background-color: black;
+    width: fit-content;
     padding: 2px;
     margin-bottom: 20px;
     display: flex;
@@ -23,9 +24,9 @@ h1{
     height: 60px;
     border: 1px solid black;
 }
-.selected{
+/* .selected{
     border: 2px solid white;
-}
+} */
 #choose{
     display: flex;
 }
@@ -38,16 +39,12 @@ input{
 #pixel-board{
     margin: 0;
     padding: 0;
-    width: 210px;
-    height: 210px;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
 }
 .pixel{
+    background-color: white;
     margin: 0;
-    width: 40px;
-    height: 40px;
     border: 1px solid black;
-
 }
