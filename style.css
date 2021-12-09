@@ -17,14 +17,23 @@ h1{
     display: flex;
     
 }
-input{
-    margin-bottom: 20px;
-}
 
 .color{
     width: 60px;
     height: 60px;
     border: 1px solid black;
+}
+.selected{
+    border: 2px solid white;
+}
+#choose{
+    display: flex;
+}
+input{
+    margin-bottom: 20px;
+}
+#clear-board{
+    margin-left: 30px;
 }
 #pixel-board{
     margin: 0;

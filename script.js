@@ -2,7 +2,13 @@ let colors = document.querySelectorAll('.color')
 let colorPalette = document.getElementById('color-palette')
 let input = document.getElementById('board-size')
 let vqv = document.getElementById('generate-board')
+let clear = document.getElementById('clear-board')
+let pixel = document.querySelector('#pixel-board')
 console.log(colors)
+
+vqv.addEventListener('click', addPixel)
+clear.addEventListener('click',clearBoard)
+pixel.addEventListener('click', selectPixel)
 
 window.onload = function(){
     colors[0].style.backgroundColor = 'black'
@@ -26,17 +32,26 @@ function selectColor(event){
     let selected = document.querySelector('.selected')
     selected.classList.remove('selected')
     event.target.classList.add('selected')
+    
 
 
 }
 
+function selectPixel(event){
+    let color = document.querySelector('.selected').style.backgroundColor
+    event.target.style.backgroundColor = color
+}
 
 
-vqv.addEventListener('click', addPixel)
 
 
 
-
+function clearBoard(){
+    let pixel = document.querySelectorAll('.pixel')
+    for(let i = 0; i < pixel.length; i++){
+        pixel[i].style.backgroundColor = 'white'
+    }
+}
 
 
 
