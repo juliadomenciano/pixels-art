@@ -1,21 +1,21 @@
-## Projeto Pixels Art
+## Pixel Art Project
 
 ![Preview](./pixelsArt.png)
 
 
-## Descrição
-Projeto desenvolvido durante o curso de desenvolvimento de software da Trybe.
-Este Projeto consite em uma paleta de cores funcional que pode ser utilizada para criar desenhos em pixels. 
+## Description
+Project developed during the Trybe software development course.
+This Project consists of a functional color palette that can be used to create pixel drawings.
 
 
 ## Tools
 
 - Javascript ES6;
-- HTML;
-- CSS.
+- HTML5;
+- CSS3.
 
 
-## Habilidades desenvolvidas
+## Skills developed
 
-- Manipulação do DOM
-- Manipulação do Javascript
+- DOM manipulation
+- Javascript manipulation
